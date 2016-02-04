@@ -46,6 +46,7 @@ div{
 		margin-left: 0px;
 		padding-left: 0px;
   }
+
 .texto{
 	width: 45%;
   margin-left: 8%;
@@ -67,3 +68,8 @@ div{
 	margin-top: 10px;
 }
 
+.bottom{
+	width: 80%;
+  margin-left: 12%;
+  font-size: 6vw;
+}
