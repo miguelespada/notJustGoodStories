@@ -40,10 +40,20 @@ div{
 			font-size: 13.5vw;
     }
  
-
-
 .texto{
 	width: 45%;
   margin-left: 8%;
   font-size: 7vw;
+}
+
+.separator{
+	margin-top: 600px;
+}
+
+.separator-med{
+	margin-top: 400px;
+}
+
+.separator-small{
+	margin-top: 200px;
 }
