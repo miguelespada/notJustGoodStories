@@ -28,11 +28,22 @@ body {
 	    background-size: 100%;
 	}
 }
+div{
+	font-family: "maison", Times, serif;
+  color: white;
+}
+.yellow{
+	color: #FAF934;
+}
+
+		.titulo {
+			font-size: 13.5vw;
+    }
+ 
+
 
 .texto{
 	width: 45%;
-	font-family: "maison", Times, serif;
-  font-size: 100px;
-  color: white;
-  margin: 8%;
+  margin-left: 8%;
+  font-size: 7vw;
 }
