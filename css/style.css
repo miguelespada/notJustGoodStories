@@ -36,9 +36,10 @@ div{
 	color: #FAF934;
 }
 
-		.titulo {
-			font-size: 13.5vw;
-    }
+	.titulo {
+		font-size: 13.5vw;
+		line-height: 80%;
+  }
  
 .texto{
 	width: 45%;
@@ -47,7 +48,7 @@ div{
 }
 
 .separator{
-	margin-top: 600px;
+	margin-top: 500px;
 }
 
 .separator-med{
