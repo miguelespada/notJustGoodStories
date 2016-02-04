@@ -9,7 +9,9 @@ body {
     padding: 0px 0px 0px 0px;
 }
 
-
+	.yellow{
+		color: #FAF934;
+	}
 @media only screen and (min-width : 800px) and (max-width : 14000px){
 	html {
 	    background: url(../images/fondoF.jpg) no-repeat top center fixed;
@@ -18,33 +20,25 @@ body {
 	    -o-background-size: cover;
 	    background-size: cover;
 	}
-}
 
-@media only screen and (min-width : 0px) and (max-width : 800px){
-	html {
-	    background: url(../images/fondoMF.jpg) no-repeat top center fixed;
-	    -webkit-background-size: 100%;
-	    -moz-background-size: 100%;
-	    -o-background-size: 100%;
-	    background-size: 100%;
+	div{
+		font-family: "maison", Times, serif;
+  	color: white;
+  	position: relative;
+		left: -15px;
 	}
-}
 
-div{
-	font-family: "maison", Times, serif;
-  color: white;
-  position: relative;
-	left: -15px;
-}
-.yellow{
-	color: #FAF934;
-}
 
 	.titulo {
 		font-size: 13.67vw;
 		line-height: 80%;
 		margin-left: 0px;
 		padding-left: 0px;
+  	 display: block;
+  }
+
+  .titulo-small{
+  	display: none;
   }
 
 .texto{
@@ -108,3 +102,100 @@ div{
 .descubre:active{
 	color: white;
 }
+}
+
+@media only screen and (min-width : 0px) and (max-width : 800px){
+	html {
+	    background: url(../images/fondoMF.jpg) no-repeat top center fixed;
+	    -webkit-background-size: 100%;
+	    -moz-background-size: 100%;
+	    -o-background-size: 100%;
+	    background-size: 100%;
+	}
+	
+	div{
+		font-family: "maison", Times, serif;
+  	color: white;
+  	position: relative;
+		left: -8px;
+	}
+	
+	.titulo {
+		font-size: 13.67vw;
+		line-height: 80%;
+		margin-left: 0px;
+		padding-left: 0px;
+  	display: none;
+  }
+
+  .titulo-small{
+  	display: block;
+		font-size: 24.6vw;
+		line-height: 90%;
+		margin-left: 0px;
+		padding-left: 0px;
+  }
+
+	.texto{
+		width: 45%;
+	  margin-left: 12%;
+	  font-size: 12vw;
+	}
+
+.separator{
+	margin-top: 200px;
+}
+
+.separator-med{
+	margin-top: 300px;
+}
+
+.separator-small{
+	margin-top: 100px;
+}
+.separator-tiny{
+	margin-top: 10px;
+}
+
+.bottom{
+	width: 80%;
+  margin-left: 12%;
+  font-size: 6vw;
+}
+.links{
+	width: 80%;
+  margin-left: 12%;
+  font-size: 3.7vw;
+  margin-bottom: 50px;
+}
+.contacta:link{
+	color: white;
+}
+.contacta:visited{
+	color: white;
+}
+.contacta:hover{
+	color: #FAF934;
+}
+.contacta:active{
+	color: #FAF934;
+}
+.descubre{
+
+	text-decoration: none;
+}
+
+.descubre:link{
+	color: #FAF934;
+}
+.descubre:visited{
+	color: #FAF934;
+}
+.descubre:hover{
+	color: white;
+}
+.descubre:active{
+	color: white;
+}
+}
+
