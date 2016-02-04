@@ -6,6 +6,7 @@
 
 body {
     margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 
@@ -28,19 +29,23 @@ body {
 	    background-size: 100%;
 	}
 }
+
 div{
 	font-family: "maison", Times, serif;
   color: white;
+  position: relative;
+	left: -15px;
 }
 .yellow{
 	color: #FAF934;
 }
 
 	.titulo {
-		font-size: 13.5vw;
+		font-size: 13.67vw;
 		line-height: 80%;
+		margin-left: 0px;
+		padding-left: 0px;
   }
- 
 .texto{
 	width: 45%;
   margin-left: 8%;
@@ -58,3 +63,7 @@ div{
 .separator-small{
 	margin-top: 200px;
 }
+.separator-tiny{
+	margin-top: 10px;
+}
+
