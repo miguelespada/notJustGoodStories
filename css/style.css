@@ -73,3 +73,38 @@ div{
   margin-left: 12%;
   font-size: 6vw;
 }
+.links{
+	width: 80%;
+  margin-left: 12%;
+  font-size: 3.7vw;
+  margin-bottom: 50px;
+}
+.contacta:link{
+	color: white;
+}
+.contacta:visited{
+	color: white;
+}
+.contacta:hover{
+	color: #FAF934;
+}
+.contacta:active{
+	color: #FAF934;
+}
+.descubre{
+
+	text-decoration: none;
+}
+
+.descubre:link{
+	color: #FAF934;
+}
+.descubre:visited{
+	color: #FAF934;
+}
+.descubre:hover{
+	color: white;
+}
+.descubre:active{
+	color: white;
+}
