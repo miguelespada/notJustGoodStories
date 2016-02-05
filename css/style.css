@@ -14,7 +14,16 @@ body {
 }
 
 @media only screen and (min-width : 800px) and (max-width : 14000px){
-		html {a
+		html {
+	    background: url(../images/fondoF.jpg) no-repeat top center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+		}
+
+		.mobile-background{
+			display: none;
 		}
 
 		div{
@@ -102,13 +111,14 @@ body {
 }
 
 @media only screen and (min-width : 0px) and (max-width : 800px){
-		html {
-		    background: url(../images/fondoMF.jpg) no-repeat top center fixed;
+		body {
+	    background: url(../images/fondoMF.jpg) no-repeat top center fixed;
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
 	    background-size: cover;
-	  }  
+	    height: 100%;
+		} 
 		
 		div{
 			font-family: "maison", Times, serif;
@@ -117,15 +127,11 @@ body {
 			left: -8px;
 		}
 		.titulo {
-			font-size: 13.67vw;
-			line-height: 80%;
-			margin-left: 0px;
-			padding-left: 0px;
 	  	display: none;
 	  }
 	  .titulo-small{
 	  	display: block;
-			font-size: 24.6vw;
+			font-size: 24vw;
 			line-height: 90%;
 			margin-left: 0px;
 			padding-left: 0px;
@@ -157,13 +163,9 @@ body {
 		}
 		
 		.links-small{
-			width: 100%;
 		  font-size: 5vw;
 		  margin-bottom: 50px;
 		  text-align: center;
-		  margin-top: 200px
-		  margin-left: 0px; 
-		  margin-right: auto; 
 		}
 		.contacta:link{
 			color: white;
