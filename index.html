@@ -4,13 +4,17 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="css/desktop.css">
     <title> Not Just Good Stories </title>
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width , minimum-scale=1.0, maximum-scale=1.0"/>
     <meta charset="UTF-8">
 </head>
 
 <body>
-  <div class="titulo">
+  <div class="mobile" style="width:100%;height:100%;background-image:url(images/fondoMF.jpg); background-size:cover; position: fixed; z-index:-1;"></div>
+
+  <div class="titulo desktop">
     <span>HARRY +<br>ESPADAYSANTA<br>CRUZ,</span> 
     <br> 
     <span class="yellow">NOTJUSTGOOD<br>STORIES</span>
@@ -18,7 +22,7 @@
    <div id="background"></div>
 
 
-  <div class="titulo-small">
+  <div class="titulo-small mobile">
     <span>HARRY +<br>ESPADA<br>YSANTA<br>CRUZ,</span>
     <br> 
     <span class="yellow">NOTJUST<br>GOOD<br>STORIES</span>
@@ -45,16 +49,19 @@
   </div>
 
 
-  <div class="numeros">
+  <div class="numeros desktop">
     0000
   </div>
 
+  <div class="numeros-small mobile">
+    0
+  </div>
 
-  <div class="links separator-med">
+  <div class="links separator-small desktop">
     <a class="contacta" href="#">Contacta ya</a> o <a class="descubre" href="#">descubre nuestro trabajo.</a>
   </div>
 
-  <div class="links-small separator-med">
+  <div class="links-small separator-small mobile">
     <a class="contacta" href="#">Contacta ya</a><br><a class="descubre" href="#">o descubre nuestro trabajo.</a>
   </div>
 
