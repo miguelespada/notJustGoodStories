@@ -1,0 +1,119 @@
+
+@media only screen and (min-width : 800px) and (max-width : 14000px){
+
+  .mobile{
+    display: none;
+  
+  }
+  .desktop{
+    display: block;
+  }
+
+    html {
+      background: url(../images/fondoF.jpg) no-repeat top center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    .mobile-background{
+      display: none;
+    }
+
+    div{
+      font-family: "maison", Times, serif;
+      color: white;
+      position: relative;
+      left: -15px;
+    }
+
+
+    .titulo {
+      font-size: 13.67vw;
+      line-height: 80%;
+      margin-left: 0px;
+      padding-left: 0px;
+      display: block;
+    }
+
+    .titulo-small{
+      display: none;
+    }
+    .texto{
+      width: 45%;
+      margin-left: 8%;
+      font-size: 7vw;
+    }
+
+    .separator{
+      margin-top: 500px;
+    }
+
+    .separator-med{
+      margin-top: 400px;
+    }
+
+    .separator-small{
+      margin-top: 200px;
+    }
+    .separator-tiny{
+      margin-top: 10px;
+    }
+
+    .bottom{
+      width: 80%;
+      margin-left: 12%;
+      font-size: 6vw;
+    }
+    .links{
+      width: 80%;
+      margin-left: 12%;
+      font-size: 3.7vw;
+      margin-bottom: 50px;
+    }
+
+    .numeros{
+      font-family: "monaco", Times, serif;
+      margin-top: 200px;
+      text-align: center;
+      width: 60%;
+      margin-left: 20%;
+      padding-top: 3.5vw;
+      font-size: 20vw;
+      border-style: solid;
+      border-width: 10px;
+    }
+
+    .links-small{
+      display: none;
+    }
+    .contacta:link{
+      color: white;
+    }
+    .contacta:visited{
+      color: white;
+    }
+    .contacta:hover{
+      color: #FAF934;
+    }
+    .contacta:active{
+      color: #FAF934;
+    }
+    .descubre{
+      text-decoration: none;
+    }
+
+    .descubre:link{
+      color: #FAF934;
+    }
+    .descubre:visited{
+      color: #FAF934;
+    }
+    .descubre:hover{
+      color: white;
+    }
+    .descubre:active{
+      color: white;
+    }
+}

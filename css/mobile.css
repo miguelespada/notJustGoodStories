@@ -1,0 +1,97 @@
+
+@media only screen and (min-width : 0px) and (max-width : 800px){
+    .mobile{
+      display: block;
+    }
+    .desktop{
+      display: none;
+    }
+
+    div{
+      font-family: "maison", Times, serif;
+      color: white;
+      position: relative;
+      left: -8px;
+    }
+    .titulo {
+      display: none;
+    }
+    .titulo-small{
+      display: block;
+      font-size: 24vw;
+      line-height: 90%;
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+    .texto{
+      width: 45%;
+      margin-left: 12%;
+      font-size: 12vw;
+    }
+    .separator{
+      margin-top: 200px;
+    }
+    .separator-med{
+      margin-top: 300px;
+    }
+    .separator-small{
+      margin-top: 100px;
+    }
+    .separator-tiny{
+      margin-top: 10px;
+    }
+    .bottom{
+      width: 40%;
+      margin-left: 12%;
+      font-size: 12vw;
+    }
+    .links{
+      display: none;
+    }
+    
+    .links-small{
+      font-size: 5vw;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    .contacta:link{
+      color: white;
+    }
+    .contacta:visited{
+      color: white;
+    }
+    .contacta:hover{
+      color: #FAF934;
+    }
+    .contacta:active{
+      color: #FAF934;
+    }
+    .descubre{
+      text-decoration: none;
+    }
+    .descubre:link{
+      color: #FAF934;
+    }
+    .descubre:visited{
+      color: #FAF934;
+    }
+    .descubre:hover{
+      color: white;
+    }
+    .descubre:active{
+      color: white;
+    }
+
+    .numeros-small{
+      font-family: "monaco", Times, serif;
+      margin-top: 200px;
+      text-align: center;
+      width: 60%;
+      margin-left: 20%;
+      padding-top: 3.5vw;
+      font-size: 20vw;
+      border-style: solid;
+      border-width: 10px;
+    }
+}
+
